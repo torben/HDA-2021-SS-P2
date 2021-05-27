@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>John Shepard - Contact</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="uk-navbar-container uk-navbar">
+  <div class="uk-navbar-left">
+    <ul class="uk-navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="missions.html">Missions</a></li>
+      <li><a href="images.html">Images</a></li>
+      <li class="uk-active"><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav">
+      <li><a href="#">Dark-Mode</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="uk-section">
+  <div class="uk-container">
+    <h1>Contact And Hire Me</h1>
+
+    <form action="submit" method="post">
+      <fieldset class="uk-fieldset">
+        <div class="uk-margin">
+          <input class="uk-input" type="text" placeholder="Your Name" name="name" />
+        </div>
+        <div class="uk-margin">
+          <input class="uk-input" type="email" placeholder="Your Email" name="email" />
+        </div>
+
+        <h4>Additional Team Members:</h2>
+        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+          <label><input class="ui-checkbox" type="checkbox" name="teammember[]" value="Ashley Williams"> Ashley Williams</label>
+          <label><input class="ui-checkbox" type="checkbox" name="teammember[]" value="Javik"> Javik</label>
+          <label><input class="ui-checkbox" type="checkbox" name="teammember[]" value="Liara T'Soni"> Liara T'Soni</label>
+          <label><input class="ui-checkbox" type="checkbox" name="teammember[]" value="Garrus Vakarian"> Garrus Vakarian</label>
+          <label><input class="ui-checkbox" type="checkbox" name="teammember[]" value="James Vega"> James Vega</label>
+        </div>
+        <div class="uk-margin">
+          <textarea class="uk-textarea" placeholder="What can I do for you?" name="task" rows="5"></textarea>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="uk-button uk-button-primary">Submit</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

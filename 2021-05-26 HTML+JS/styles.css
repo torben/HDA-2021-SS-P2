@@ -1,0 +1,26 @@
+body {
+  min-height: 100vh;
+}
+
+body.uk-light {
+  background: #000;
+}
+
+body.uk-light .uk-navbar-container:not(.uk-navbar-transparent),
+body.uk-light .uk-comment-primary {
+  background: #0f0f0f;
+}
+
+.image-list img {
+  object-fit: cover;
+  width: 20%;
+  border-right: 1px white solid;
+}
+.image-list img:last-child {
+  border-right: 0;
+}
+
+.fullscreen img {
+  width: 100vw;
+  height: auto;
+}

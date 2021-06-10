@@ -11,9 +11,13 @@ body.uk-light .uk-comment-primary {
   background: #0f0f0f;
 }
 
+.image-list {
+  background: black;
+}
 .image-list img {
   object-fit: cover;
   width: 20%;
+  height:  100%;
   border-right: 1px white solid;
 }
 .image-list img:last-child {
